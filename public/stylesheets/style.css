@@ -1,0 +1,62 @@
+body {
+  background-color: #181818;
+  padding: 50px;
+}
+
+p {
+  font-family: 'quicksand', sans-serif;
+  font-weight: 400;
+  color: #A8A8A8;
+}
+
+.profilePicture {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+h1,
+h2 {
+  color: #A8A8A8;
+  font-weight: 300;
+  font-family: 'quicksand', sans-serif;
+}
+
+
+#message {
+  min-height: 200px;
+  border-style: solid;
+  border-color: #A8A8A8;
+  background-color: #181818;
+}
+
+#message:focus {
+  color: #A8A8A8;
+}
+
+#submit,
+#email,
+#name {
+  border-style: solid;
+  border-color: #A8A8A8;
+  color: #A8A8A8;
+  background-color: #181818;
+}
+
+form {
+  width: 700px;
+  margin: 0 auto;
+  font-family: 'quicksand', sans-serif;
+  font-weight: 300;
+  background-color: #181818;
+}
+
+input[type="name"]::placeholder {
+  color: #A8A8A8;
+}
+input[type="email"]::placeholder {
+  color: #A8A8A8;
+}
+#message::placeholder {
+  color: #A8A8A8;
+}
