@@ -16,15 +16,16 @@ i {
 }
 footer {
   text-align: center;
-  padding-block-start: 100px;
+  position:absolute;
+  bottom:0;
+  width:95%;
+  height:60px; 
 }
 
 p {
-  
   font-family: 'quicksand', sans-serif;
   font-weight: 400;
   color: #A8A8A8;
-  padding-block-end: 30px
 }
 
 .profilePicture {
@@ -33,15 +34,20 @@ p {
   height: 100px;
 }
 h1{
-  padding-block-end: 50px
+  
 }
 h2{
   padding-block-start: 80px;
   padding-block-end: 20px
 }
+h4 {
+  padding-block-start: 05px;
+  padding-block-end: 30px;
+}
 
 h1,
-h2 {
+h2,
+h4 {
   color: #A8A8A8;
   font-weight: 300;
   font-family: 'quicksand', sans-serif;
